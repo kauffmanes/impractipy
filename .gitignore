@@ -1,0 +1,10 @@
+# compiled
+__pycache__/
+impractipy.egg-info/
+build
+
+# virtual envs
+impractipy_env/
+
+# os generated
+.DS_Store
