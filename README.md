@@ -9,3 +9,13 @@ The first many of these will more than likely be directly from the book. Eventua
 ## Pseudonyms
 
 This function lets you generate silly names.
+
+# To Build and Package
+
+Follow steps here: https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/
+
+After adding `.pypirc` values:
+
+Test: `twine upload --repository testpypi dist/*`
+
+Prod: `twine upload dist/*`

@@ -2,6 +2,7 @@
 __pycache__/
 impractipy.egg-info/
 build
+dist
 
 # virtual envs
 impractipy_env/
